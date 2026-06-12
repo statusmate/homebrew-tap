@@ -2,29 +2,29 @@ class St4 < Formula
   desc "CLI tool for managing Statusmate status pages"
   homepage "https://github.com/statusmate/statusmatectl"
   license "MIT"
-  version "v1.0.2"
+  version "v1.1.0"
 
   on_macos do
     on_intel do
       url "https://github.com/statusmate/statusmatectl/releases/download/#{version}/st4-darwin-amd64.tar.gz"
-      sha256 "f7f7c0e005bfb4d2e36c3e7e297b370df5c433acb4382ad17101ea31f7942e7d"
+      sha256 "97172ffbe9210af523de65e21f03e4334148b431b8acc53643e996707e2a37c6"
     end
 
     on_arm do
       url "https://github.com/statusmate/statusmatectl/releases/download/#{version}/st4-darwin-arm64.tar.gz"
-      sha256 "256be21412932aa6dc9e683906714b6dc1a9e0d737a16dfec7d4c084cbb56551"
+      sha256 "50170cdcafc1e2b296981915162d2d4afa75a9042868a0ea8dc6ef7877ce8d61"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/statusmate/statusmatectl/releases/download/#{version}/st4-linux-amd64.tar.gz"
-      sha256 "77ce023bb018a194f4d037d64de218491b7936845f59b3f90bdb3134740570ac"
+      sha256 "bb801badf53db2aef29627585ad5b4d5dbe413f3956fd6c00f438ff8b607f5ec"
     end
 
     on_arm do
       url "https://github.com/statusmate/statusmatectl/releases/download/#{version}/st4-linux-arm64.tar.gz"
-      sha256 "59c9567905b70a7fde43f901eca4998817335b10c70ddf5668104ff4aca405b5"
+      sha256 "32f7b4aa37c30aad36cafe55da6cc03c1514109218f900b25fb8b570ca0cf416"
     end
   end
 
